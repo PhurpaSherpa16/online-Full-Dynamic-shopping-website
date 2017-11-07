@@ -1,0 +1,32 @@
+#container{
+			min-height: 400px;
+		}
+   		#viewImages{
+   			height: 100px;
+   			width: 100%
+   		}
+   		#thumbnail{
+			width: 50%;
+   		}
+   		h4{
+   			color: white;
+   		}
+		#btn{
+			background: #e8491d;
+			width: 80px;
+			height: 25px;
+		}
+		#btn{
+			color: white;
+			font-size: 15px;
+			line-height: 0;
+		}
+		#btn:hover{
+			background: white;
+			color: blue;
+		}
+		
+		#box{
+			padding-left: 0px;
+			padding-right: 0px;
+		}

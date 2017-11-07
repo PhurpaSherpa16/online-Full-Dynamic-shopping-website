@@ -1,0 +1,20 @@
+body{
+	margin:auto;
+	background-image:url(../image/back1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+
+}
+.register{
+	width:700px;
+	height:400px;
+	text-align:center;
+	margin:0 auto;
+	background-color:#dd2011;
+	margin-top:90px;
+	margin-right: 800px;
+	border-radius:10px;
+	opacity:.7;
+	
+}
+

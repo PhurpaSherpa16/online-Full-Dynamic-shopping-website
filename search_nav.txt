@@ -1,0 +1,57 @@
+<style>
+  .navbar-form {
+    padding: 0px;
+    
+}
+element.style {
+    width: 250px;
+}
+  input[type='text']{
+    width: 250px;
+}
+.navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+    width: 300px;
+}
+</style>
+<nav id="nav">
+ <div class="container-fluid" style="border-bottom: 5px solid #e8491d;">
+   <div class="row">
+     <div class="col-sm-12" style="background-color:;">
+        <div class="col-sm-3 col-md-7">
+        <ul class="nav nav-tabs" style="border:none;">
+         <li role="presentation" ><a href="<?php echo base_url();?>AdminController" class="" >Home</a></li>
+         <li role="presentation" ><a href="<?php echo base_url();?>AdminController/getAddProduct" class="">Add Products</a></li>
+         <li role="presentation" ><a href="<?php echo base_url();?>AdminController/viewProducts" class="">View Products</a></li>
+         <li role="presentation" ><a href="<?php echo base_url();?>AdminController/getUpdateProduct" class="">Update Products</a></li> 
+         </ul>
+          </div>
+      <div class="col-sm-3 col-md-3" style="background-color: ">
+            <form class="navbar-form" style="float: left;" role="search">
+                <div class="input-group" class="col-sm-12 col-md-12">
+                    <input type="text" class="form-control" placeholder="Search" name="q" style="width: 100%">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit" style="width: 50px; height: 34px;"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+      </div> 
+      <div class="col-sm-3 col-md-2 pull-left" style="background-color: ">
+          <ul class="nav nav-tabs" style="border:none;"> 
+           <li id="dropdown" role="presentation" class="dropdown" style="float:right;">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <?php echo $user_data->fname.' '.$user_data->lname ?>
+              </a>
+             <ul class="dropdown-menu" style="margin-left:-68px;">
+               <li role="presentation"><a href="<?php echo base_url();?>AdminController/update_profile?id=<?php echo $user_data->id;?>">Update Profile</a></li>
+               <li role="presentation"><a href="<?php echo base_url();?>AdminController/logout">Log Out</a></li>
+             </ul>
+           </li>
+          </ul>
+      </div>
+      
+     </div>
+   </div>
+ </div>
+</nav>

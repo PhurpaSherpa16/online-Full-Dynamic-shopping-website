@@ -1,0 +1,35 @@
+<a href="<?php echo base_url(); ?>/getproduct/ <?php echo data['pId'] ?>">view </a>
+
+<?php echo base_url();?>Auth/product_view?pid=<?php echo $row->id; ?>
+
+class="col-lg-3 col-sm-4 col-xs-12"
+
+<h1 style="text-align: center; color: #e8491d">Sory, No data Found!!!</h1>
+
+
+<?php 
+		if (isset($message)) {
+	?>
+		<button type="button" id="msg" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm" style="display: none"></button>
+		 <script>
+		 $(document).ready(function () {
+		     $("#msg").click();
+		 });
+	 	</script>
+		<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  			<div class="modal-dialog modal-sm" role="document"> 
+  				<div class="modal-content"> 
+  					<div class="modal-header"> 
+  						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+  						</button> 
+  						<h4 class="modal-title" id="mySmallModalLabel">Small modal</h4> 
+  					</div> 
+  					<div class="modal-body"> <?php echo  $message; ?></div>
+  				</div> 
+  			</div> 
+		</div>
+	<?php
+		}
+	?>
+
+<span class="badge">3</span>

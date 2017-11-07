@@ -1,0 +1,163 @@
+body{
+  font-family: Aerial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+header{
+  background: #35424a;
+  color: white;
+  padding-top: 30px;
+  min-height: 100px;
+  border-bottom: 3px solid #e8491d;
+
+}
+header h1{
+margin-top: 0px;
+}
+
+header .hightlight, header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+
+
+header form{
+  float: right;
+  margin-top: 3px;
+}
+
+header form a{
+  font-size: 15px;
+  color: white;
+  text-transform: none;
+  margin-left: 10px;
+  text-decoration: none;
+}
+header input[type="email"],header input[type="password"] {
+  padding: 10px;
+  height: 30px;
+  width:180px;
+  font-style: italic;
+  font-family: sans-serif;
+  margin-left: 10px;
+  color: black;
+}
+header a:hover{
+  color:#e8491d;
+}
+
+.button1{
+  background-color: #e8491d;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+.button1:hover{
+  background-color: white;
+  color:#e8491d;
+}
+
+
+/* show case */
+
+#showcase{
+  min-height: 400px;
+  background:url('images/showcase1.jpg') no-repeat 0 -400px;
+  text-align: center;;
+  color: white;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 25px;
+}
+
+/* nav bar */
+
+#nav{
+  background-color: #35424a;
+}
+
+#nav ul li a{
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#nav ul li a:hover{
+  color: #35424a;
+  font-style: italic;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background-color:#35424a;
+  border: none;
+  margin:0px;
+}
+
+#nav .hightlight{
+  color:#e8491d;
+  font-weight: bold;
+}
+#dropdown{
+  border: none;
+}
+.dropdown-menu{
+  background: #35424a;
+  border: none;
+}
+#dropdown ul li a{
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+}
+#dropdown ul li a:hover{
+  color:#e8491d ;
+  font-style: italic;
+  font-family: helvetica;
+  font-weight: bold;
+}
+/* body */
+
+#body .product_box{
+margin-left:8%;
+color: white;
+}
+#body .product_box #product{
+margin:20px;
+background: #35424a;
+}
+
+
+/* footer */
+#footer{
+  margin: 0px;
+  padding: 0px;
+  background: #35424a;
+  border-top: 3px solid #e8491d;
+}
+#logo{
+
+}
+.thumbnail{
+  background-color: #35424a;
+  border: none;
+}
+#website a:hover, #products_details a:hover, #follow_us_on a:hover{
+  color: #e8491d;
+  font-weight: bold;
+}

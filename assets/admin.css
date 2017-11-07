@@ -1,0 +1,15 @@
+header{
+  border-bottom: none;
+}
+.welcome{
+  height: 300px;
+  width: 100%;
+  background:;
+}
+.welcome h1{
+  text-align: center;
+  font-family: sans-serif;
+  color:  #35424a;
+  font-weight: bold;
+  font-size: 50px;
+}
